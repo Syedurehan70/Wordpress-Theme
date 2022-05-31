@@ -1,0 +1,129 @@
+.trending {
+    padding: 3% 2%;
+
+    .plus-icon {
+        padding-bottom: 40px;
+        transform: rotate(7.49deg);
+    }
+
+    .green-circle {
+        width: 45px;
+        position: relative;
+        top: 0px;
+        left: -30px;
+    }
+
+    .green-circle-2 {
+        padding-top: 40px;
+    } 
+
+    h1 {
+        font-family: $fontFair;
+        font-style: $fontStylenormal;
+        font-weight: bold;
+        font-size: 2.25rem;
+        line-height: 50px;
+        margin-left: 10px;
+
+        padding-bottom: 25px;
+    }
+
+    .view-button {
+        width: 118px;
+        height: 30px;
+        margin: 8px 0;
+
+        .btn {
+            padding: 0;
+        }
+
+        .view-b {
+            font-family: $fontInter;
+            font-style: $fontStylenormal;
+            font-weight: 600;
+            font-size: 1.063rem;
+            line-height: 20px;
+
+            color: $goldButton;
+        }
+
+        .dropdown-toggle::after {
+            display: none !important;
+        }
+
+        img {
+            width: 6px;
+            height: 19px;
+            margin-left: -25px;
+            padding-bottom: 6px;
+        }
+    }
+
+    .card {
+        width: 283px;
+        height: 456px;
+        margin: 0 auto;
+        border: none;
+        overflow: hidden;
+
+        background: no-repeat top center;
+        background-attachment: scroll;
+        position: relative;
+        -webkit-background-size: 284px 330px;
+        -moz-background-size: 284px 330px;
+        -o-background-size: 284px 330px;
+        background-size: 287px 330px;
+    }
+
+    .yoga {
+        width: 268px;
+        height: 446px;
+        background-size: 287px 313px;
+        border-radius: 2%;
+    }
+
+    .place {
+        position: relative;
+        top: 230px;
+        left: -10px;
+
+        width: 287px;
+        height: 220px;
+        padding: 8px;
+        background: $white;
+
+        h5 {
+            font-family: $fontInter;
+            font-style: $fontStylenormal;
+            font-weight: bolder;
+            font-size: 1.188rem;
+            line-height: 30px;
+            color: $black;
+        }
+
+        p {
+            font-family: $fontInter;
+            font-style: $fontStylenormal;
+            font-weight: normal;
+            font-size: 0.938rem;
+            line-height: 26px;
+            color: $greypara;
+        }
+
+        .btn {
+            font-family: $fontInter;
+            font-style: $fontStylenormal;
+            font-weight: 600;
+            font-size: 0.938rem;
+            line-height: 28px;
+            margin-left: -11px;
+
+            color: $goldButton;
+        }
+    }
+
+    .yoga-place {
+        top: 222px;
+        padding-top: 16px;
+    }
+}

@@ -1,0 +1,131 @@
+.dest {
+    padding: 3% 2%;
+
+    .container-fluid {
+        padding: 0 10px;
+        text-align: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .plus-icon {
+        position: relative;
+        transform: rotate(7.49deg);
+        top: 332px;
+        left: -629px;
+    }
+
+    .green-circle {
+        position: relative;
+        // top: -15px;
+        // left: -208px;
+    }
+
+    .green-circle-2 {
+        position: relative;
+        width: 22px;
+        padding-bottom: 20px;
+    } 
+
+    h1 {
+        font-family: $fontFair;
+        font-style: $fontStylenormal;
+        font-weight: bold;
+        font-size: 2.25rem;
+        line-height: 50px;
+
+        padding-bottom: 25px;
+    }
+
+    .view-button {
+        width: 118px;
+        height: 30px;
+        margin: 8px 0;
+        margin-right: 20px;
+
+        .view-b {
+            font-family: $fontInter;
+            font-style: $fontStylenormal;
+            font-weight: 600;
+            font-size: 1.063rem;
+            line-height: 20px;
+
+            color: $goldButton;
+        }
+
+        .dropdown-toggle::after {
+            display: none !important;
+        }
+
+        img {
+            width: 7px;
+            height: 19px;
+            padding-bottom: 9px;
+        }
+
+    }
+
+    .card {
+        width: 259px;
+        height: 330px;
+        margin: 0 auto;
+        margin-top: 25px;
+        border-radius: 2%;
+        -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+
+        background: no-repeat center center;
+        background-attachment: scroll;
+        position: relative;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+    }
+
+    .place {
+        position: relative;
+        left: -9px;
+        top: 272px;
+
+        width: 120px;
+        height: 56px;
+        background: $white;
+        border-radius: 0px 6px 0px 0px;
+
+        a {
+            text-decoration: none;
+            color: $black;
+          }
+
+        a:hover {
+        color: $goldButton;
+        }
+
+        h2 {
+            font-family: $fontInter;
+            font-style: $fontStylenormal;
+            font-weight: 600;
+            font-size: 1.063rem;
+            line-height: 10px;
+            color: $blackshade;
+            padding-top: 11px;
+            padding-left: 5px;
+
+            
+        }
+
+        p {
+            font-family: $fontInter;
+            font-style: $fontStylenormal;
+            font-weight: 300;
+            font-size: 0.938rem;
+            line-height: 10px;
+            color: $greyshade;
+            padding-left: 5px;          
+        }
+    }
+}

@@ -1,0 +1,127 @@
+footer {
+    padding: 30px 0px;
+    margin: auto;
+    background: $white;
+    font-family: $fontMullish;
+
+    .logo {
+        width: 44px;
+        height: 44px;     
+    }
+
+    h6 {
+        font-style: $fontStylenormal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 30px;
+    }
+    
+    p {
+        font-style: $fontStylenormal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 23px;
+
+        color: $greyfooter;
+    }
+    
+    .cite {
+        font-style: $fontStylenormal;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 28px;
+        margin-top: 69px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .col-lg-5 {
+        width: 360px;
+        height: 237px;
+        margin-left: -50px;
+    }
+
+    .col-lg-2 {
+        width: 190px;
+        height: 249px;
+        margin-left: 70px;
+    }
+
+    hr {
+        margin-top: 60px;
+        margin-bottom: 30.4px;
+    }
+
+    .socials{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 1.5rem 0;
+        padding-left: 0;
+    }
+    
+    .socials li{
+        margin: 0 25px;
+
+        @media only screen and (max-width: 500px) {
+            margin: 0 auto;
+        }
+    }
+    
+    .socials a{
+        text-decoration: none;
+        color: $black;
+        border: 1.1px solid $white;
+        padding: 0px;
+        border-radius: 50%;
+    }
+    
+    .socials a i{
+        font-size: 1.6rem;
+        width: 10px;
+        transition: color .4s ease;
+    }
+    
+    .socials a:hover i{
+        color: $lightblue;
+    }
+}
+
+// @media only screen 
+//   and (min-device-width: 1024px) 
+//   and (max-device-width: 1366px) {
+
+//     footer {
+//             padding: 10px 0;
+//     }
+
+//     h6 {
+//             font-size: 18px;
+//     }
+
+//     p {
+//             font-size: 17px;
+//     }
+
+//     .cite {
+//             font-size: 16px;
+//             margin-top: 39px;
+//     }
+
+//     .col-lg-5 {
+//             margin-right: auto;
+//             margin-left: auto;
+//     }
+
+//     .col-lg-2 {
+//             margin-right: auto;
+//             margin-left: auto;
+//     }
+
+//     .socials li {
+//             margin: 0 20px;
+//     }
+//   }

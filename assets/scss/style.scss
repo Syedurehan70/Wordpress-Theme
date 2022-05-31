@@ -1,0 +1,340 @@
+@import "_variables.scss";
+
+html {
+    margin-top: 0px !important;
+  }
+
+body {
+    background-color: $white;
+}
+
+@import "_header.scss";
+
+@import "_two.scss";
+
+@import "_destinations.scss";
+
+@import "_forth.scss";
+
+@import "_testimonial.scss";
+
+@import "_trending.scss";
+
+@import "_footer.scss";
+
+.back-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  border-radius: 100%;
+  background: #141c38;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  opacity: 100%;
+  transition: opacity 0.5s;
+}
+
+.back-to-top:hover {
+  opacity: 60%;
+}
+
+.hidden {
+  display: none;
+  opacity: 0%;
+}
+
+.back-to-top-icon {
+  width: 1rem;
+  height: 1rem;
+  color: #7ac9f9;
+}
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) {
+
+  .descrp {
+
+    h1 {
+            padding: 95px 102px 0px 70px;
+    }
+
+    p {
+            padding: 0 115px 0 70px;
+    }
+
+    .btn-exp {
+            margin: 0px 50px 20px 70px;
+            padding: 10px 31px;
+    }
+}
+
+.dest {
+
+  h1 {
+          line-height: 30px;
+          padding-left: 10px;
+  }
+}
+
+.guides {
+
+  h1 {
+          padding: 95px 70px 0px 25px;
+  }
+
+  p {
+          padding: 0 70px 0 25px;
+  }
+
+  .btn-exp {
+          margin: 0px 50px 20px 25px;
+          padding: 10px 31px;
+  }
+}
+
+.testimonial {
+
+  
+
+  h1 {
+          line-height: 30px;
+  }
+
+  .comment {
+          padding-right: 40px;
+          padding-bottom: 30px;
+  }
+}
+
+}
+
+  @media screen and (max-width: 992px) {
+
+    .head {
+
+    .btn-outline {
+            width: 200px;
+            margin-bottom: 10px;
+    }
+
+    .btn-reg {
+            width: 200px;
+            margin-bottom: 10px;
+    }
+
+    .dropdowns {
+
+            .fa {
+                left: 59px;
+                bottom: 36px;
+            }
+        }
+
+    .traveller {
+            margin-left: 0px;
+            margin-top: 0px;
+            width: 450px;
+            height: 477px;
+    }
+}
+
+.descrp {
+
+  h1 {
+          padding: 25px 150px 0px 150px;
+  }
+
+  p {
+          padding: 0 135px 0 135px;
+  }
+
+  .btn-exp {
+          margin: 0px 50px 20px 50px;
+          padding: 9px 29px;
+  }
+
+}
+
+.dest {
+
+  h1 {
+          line-height: 30px;
+          padding-bottom: 0;
+  }
+
+  .plus-icon {
+        left: -210px;
+  }
+}
+
+.guides {
+
+  h1 {
+          padding: 55px 70px 0px 50px;
+  }
+
+  p {
+          padding: 0 110px 0 90px;
+  }
+
+  .btn-exp {
+          margin: 0px 50px 20px 30px;
+          padding: 9px 29px;
+  }
+}
+
+.testimonial {
+
+  .plus-icon {
+        left: -28px;
+  }
+
+  .green-circle {
+          top: 31px;
+          left: 389px;
+  }
+
+  .review {
+      text-align: center;
+      padding: 0 30px;
+  }
+
+  .star-group {
+      justify-content: center;
+      padding-top: 40px;
+      padding-bottom: 10px;
+  }
+
+  .comment {
+      padding: 0 40px;
+      padding-bottom: 10px;
+  }
+
+  .photo {
+      width: 304px;
+      height: 411px;
+      background-size: 683px 518px;
+      margin: auto;
+
+      .slider {
+          width: 122px;
+          height: 50px;
+          top: 361px;
+          left: 182px;
+          padding-left: 8px;
+          padding-top: 6px;
+
+          .prev,
+          .nxt {
+              margin-left: 5px;
+
+              li {
+                  padding: 0 3px;
+                  padding-bottom: 6px;
+              }
+          }
+      }
+  }
+}
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .descrp {
+
+        h1 {
+                padding: 5px 20px 0px 20px;
+        }
+        
+        p {
+                padding: 0 15px 0 15px;
+                line-height: 25px;
+        }
+
+        .btn-exp {
+                margin: 0px 30px 20px 30px;
+                padding: 8px 27px;
+        }
+    }
+
+    .dest {
+
+      h1 {
+              line-height: 30px;
+              margin: auto;
+      }
+
+      .view-button {
+              width: 118px;
+              height: 30px;
+              margin-right: 6px;
+              margin: 5px 0;
+
+          .view-b {
+                  padding: 5px 0px;
+          }
+      }
+  }
+
+  .guides {
+
+    h1 {
+            padding: 25px 10px 0px 10px;
+    }
+    
+    p {
+            padding: 0 15px 0 15px;
+            line-height: 25px;
+    }
+
+    .btn-exp {
+            margin: 0px 30px 20px 30px;
+            padding: 8px 27px;
+    }
+}
+
+.testimonial {
+
+  .plus-icon {
+    left: 10px;
+  }
+
+  .green-circle {
+          position: sticky;
+        left: 46%;
+    top: 31px;
+  }
+
+  .star-group {
+          padding-top: 30px;
+
+      li {
+              padding: 0 5.98px;
+      }
+  }
+
+  .comment {
+          padding: 0px;
+          padding-bottom: 8px;
+  }
+
+  .photo {
+          width: 264px;
+          height: 371px;
+          background-size: 593px 432px;
+          background-position: -140px 0;
+          margin: auto;
+
+      .slider {
+          @media only screen and (max-width: 600px) {
+              top: 321px;
+              left: 142px;
+              padding-left: 4px;
+              padding-top: 6px;
+          }
+      }
+  }
+}
+  }

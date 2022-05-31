@@ -1,0 +1,126 @@
+.testimonial {
+    padding: 3% 2%;
+
+    .row {
+        padding: 0;
+        text-align: left;
+    }
+
+    .plus-icon {
+        position: relative;
+        transform: rotate(7.49deg);
+        top: -28px;
+        z-index: 2;
+        left: 51px;
+    }
+
+    .green-circle {
+        position: relative;
+        top: 31px;
+        left: 420px;
+    }
+
+    h1 {
+        font-family: $fontFair;
+        font-style: $fontStylenormal;
+        font-weight: bold;
+        font-size: 2.25rem;
+        color: $black;
+        line-height: 50px;
+    }
+
+    .review {
+        text-align: left;
+    }
+
+    .star-group {
+        list-style: none;
+        padding-left: 0;
+        padding-bottom: 30px;
+        padding-top: 100px;
+
+        li {
+            padding: 0 7.98px;
+        }
+
+        img {
+            width: 25.12px;
+            height: 23.95px;
+        }
+    }
+
+    .comment {
+        font-family: $fontMullish;
+        font-style: $fontStylenormal;
+        font-weight: 400;
+        font-size: 1.5rem;
+        line-height: 36px;
+        padding-bottom: 40px;
+        color: $black;
+        padding-right: 140px;
+    }
+
+    .person {
+        font-family: $fontInter;
+        font-style: $fontStylenormal;
+        font-weight: bolder;
+        font-size: 1.375rem;
+        line-height: 30px;
+    }
+
+    .position {
+        font-family: $fontInter;
+        font-style: $fontStylenormal;
+        font-weight: normal;
+        font-size: 1.125rem;
+        line-height: 20px;
+    }
+
+    .photo {
+        width: 384px;
+        height: 491px;
+        overflow: hidden;
+        border-radius: 4%;
+        margin-left: 70px;
+
+        background: no-repeat top center;
+        background-attachment: scroll;
+        position: relative;
+        -webkit-background-size: 284px 330px;
+        -moz-background-size: 284px 330px;
+        -o-background-size: 284px 330px;
+        background-size: 773px 598px;
+        background-position: -160px 0;
+
+        .slider {
+            width: 132px;
+            height: 60px;
+            position: relative;
+            top: 431px;
+            left: 252px;
+            padding-left: 15px;
+            padding-top: 15px;
+            background-color: $white;
+            border-radius: 16px 0px 0px 0px;
+
+            .prev, .nxt {
+                margin-left: 10px;
+                color: $greyborder;
+                border-radius: 50%;
+                border: 2px solid $greyborder;
+
+                i {
+                    font-size: 0.75rem;
+                    padding: 0 5px;
+                    padding-bottom: 8px;
+                }
+            }
+
+            .prev:hover, .nxt:hover {
+                color: $black;
+                border-color: $black;
+            }
+
+        }
+    }
+}

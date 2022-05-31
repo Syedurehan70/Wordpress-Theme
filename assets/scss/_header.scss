@@ -1,0 +1,190 @@
+.head {
+    padding: 3% 2%;
+
+    .navbar {
+        background: transparent;
+        padding-bottom: 17px;
+    }
+
+    .logo {
+        width: 43px;
+    }
+
+    .navbar-collapse {
+        padding-right: 0px;
+    }
+
+    .nav-link {
+        font-family: $fontInter;
+        font-style: $fontStylenormal;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 19px;
+        color: $blueNav;
+    }
+
+    .btn-outline,
+    .btn-reg {
+        margin-right: 8px;
+        border-radius: 8px;
+        font-family: $fontInter;
+        font-style: $fontStylenormal;
+        font-weight: 500;
+        font-size: 0.938rem;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .btn-outline {
+        color: $goldButton;
+        border-color: $goldButton;
+        padding: 10px 49px;
+    }
+
+    .btn-outline:hover {
+        color: $white;
+        background-color: $goldButton;
+        border-color: $goldButton;
+    }
+
+    .btn-reg {
+        color: $white;
+        background-color: $goldButton;
+        padding: 10px 39px;
+    }
+
+    .btn-reg:hover {
+        border-color: $goldButton;
+        color: $goldButton;
+        background-color: $white;
+    }
+
+    .plus-icon {
+        position: relative;
+        top: 16px;
+        left: 40%;
+    }
+
+    .green-circle {
+        position: relative;
+        top: 600px;
+        left: 50%;
+    }
+
+
+    // heading and picture
+    .row {
+        padding: 55px 0;
+        text-align: left;
+
+        .head-menu {
+            padding: 0 20px;
+        }
+    }
+
+    .heading-1 {
+        font-family: $fontFair;
+        font-style: $fontStylenormal;
+        font-weight: bold;
+        font-size: 4rem;
+        padding-top: 42px;
+    }
+
+    .dropdowns {
+        padding-top: 6%;
+
+        .d-flex {
+            padding-top: 32px;
+        }
+
+        h2 {
+            padding: 8px 0;
+            font-family: $fontInter;
+            font-style: $fontStylenormal;
+            font-weight: 600;
+            font-size: 1.375rem;
+        }
+
+        hr {
+            border: 1px solid $blueNav;
+            border-radius: 4px;
+            width: 9%;
+            opacity: 1;
+        }
+
+        .two-group {
+
+            .input-holder {
+                margin: 0;
+                width: 171px;
+                height: 52px;
+            }
+        }
+
+        .fa {
+            z-index: -1000;
+            position: relative;
+            left: 141px;
+            bottom: 39px;
+            font-size: 0.813rem;
+        }
+
+        ::placeholder, 
+        ::-webkit-input-placeholder {
+            opacity: 1;
+        }
+    }   
+
+    .drop {
+        width: 170px;
+        height: 52px;
+        padding: 10px 31px;
+        text-align: left;
+        font-family: $fontInter;
+        font-style: $fontStylenormal;
+        font-weight: normal;
+        font-size: 0.938rem;
+        border: 0.8px solid $grey;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+
+    .drop-menu {
+        padding-right: 29px;
+        border: 0.8px solid $grey;
+        border-left: none;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+
+    .dropdown-toggle::after {
+        display: none !important;
+    }
+
+    .btn-exp {
+        font-family: $fontMullish;
+        font-style: $fontStylenormal;
+        font-weight: bold;
+        font-size: 1.063rem;
+        margin-top: 48px;
+        border-radius: 8px;
+        color: $white;
+        background-color: $goldButton;
+        padding: 12px 59px;
+    }
+
+    .btn-exp:hover {
+        border-color: $goldButton;
+        color: $goldButton;
+        background-color: $white;
+    }
+
+    .traveller {
+        margin-left: 70px;
+        width: 686px;
+        height: 654px;
+    }
+}
